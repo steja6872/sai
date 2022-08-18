@@ -1,0 +1,11 @@
+name: My Workflow
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run action
+      uses: steja6872/sai@main
+      with:
+        path: path/to/sai.txt

@@ -8,4 +8,4 @@ jobs:
     - name: Run action
       uses: steja6872/sai@main
       with:
-        path: path/to/sai.txt
+        path: sai/sai.txt
